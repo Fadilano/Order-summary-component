@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -190px -400px;
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 450px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.14);
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.14);
+}
+
+.text {
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+}
+
+.text h1 {
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+.text p {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0 20px 0 20px;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #F8F9FE;
+    margin: auto;
+    width: 350px;
+    height: 98px;
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.left-content {
+    display: flex;
+    align-items: center;
+  }
+  .left-content img {
+    margin-right: 10px; /* Adding some spacing between the icon and text */
+  }
+  .card p {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+  }
+.card p span {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.card a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+.card a:hover{
+    text-decoration: none;
+    color: hsl(245, 64%, 63%);
+}
+.btn {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    height: 50px;
+    width: 350px;
+    border: 0px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    display: block;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.14);
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.14);
+}
+.btn:hover{
+    background-color:  hsl(245, 64%, 63%);;
+}
+
+.cancel {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
