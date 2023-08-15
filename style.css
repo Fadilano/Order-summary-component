@@ -7,9 +7,8 @@
 
 body {
     background-image: url(images/pattern-background-desktop.svg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: -190px -400px;
     background-color: hsl(225, 100%, 94%);
     height: 100vh;
     display: flex;
@@ -30,7 +29,12 @@ body {
     -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.14);
     -moz-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.14);
 }
-
+.heroImage {
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px;
+    width: 450px;
+    height: 220px;  
+}
 .text {
     text-align: center;
     color: hsl(223, 47%, 23%);
@@ -116,3 +120,11 @@ body {
 .cancel:hover{
     color: hsl(223, 47%, 23%);
 }
+
+@media only screen and (max-width: 450px) {
+    .container {
+        max-width: 370px;
+        /* the image is not going to change, because it is styled in the html */
+    }
+    
+} 
